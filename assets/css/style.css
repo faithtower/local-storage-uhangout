@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, Oxygen, 'Segoe UI', Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background: linear-gradient(45deg, #1323DD, #DD13DD);
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.provide-details {
+    background: #F3F4F5;
+}
+
+.countries {
+    color: #555454;
+}
+
+#team {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#team div {
+    border: 1px solid rgb(70, 105, 150);
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#team div h3 {
+    background-color: rgb(225, 226, 230);
+    color: rgb(51, 50, 50);
+}
+
+#team div button {
+    border: none;
+    background: white;
+    color: red;
+    outline: none;
+    transition: background .6s;
+    transition: color .9s;
+}
+
+#team div button:hover {
+    background: rgb(241, 99, 99);
+    color: white;
+    border-radius: 5px;
+}
+
+@media(max-width: 580px) {
+    #team {
+        width: 90%;
+    }
+}
